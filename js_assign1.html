@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>js 1</title>
+</head>
+<body>
+<script>
+    // var x=10
+    // if(x%3==0){
+    //     console.log("tic")
+    // }
+    // else if(x%5==0){
+    //     console.log("tac")
+    // }
+    // else if(x%3==0 && x%5==0){
+    //     console.log("toe")
+    // }
+
+
+    const countOccurrences = (arr, val) => arr.reduce((a, v) => (v === val ? a + 1 : a), 0);
+    console.log(countOccurrences([1, 1, 2, 1, 2, 3], 1));
+    console.log(countOccurrences([1, 1, 2, 1, 2, 3], 2));
+    console.log(countOccurrences([1, 1, 2, 1, 2, 3], 3));
+</script>
+</body>
+</html>
